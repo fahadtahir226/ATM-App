@@ -1,14 +1,5 @@
 class Account(val accountName:String, val accountPin:String ="abcd",var accountInitialDepositAmount:Int=1000)
 
-
-  /*  constructor(accountName:String, accountPin:String ="abcd", accountInitialDepositAmount:String="1000"){
-    this.accountName = accountName
-    this.accountPin = accountPin
-    this.accountInitialDepositAmount = accountInitialDepositAmount
-
-}*/
-
-
 val accounts = arrayListOf<Account>()
 var loginAccount: String =""
 var loginPass: String = ""
